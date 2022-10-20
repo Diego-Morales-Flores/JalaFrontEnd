@@ -1,0 +1,29 @@
+.Table{
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  background-color: #6b5b95;
+  display: flex;
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 20px;
+}
+.Column{
+    flex: 1;
+    background-color: #ff7b25;
+    margin: 10px;
+    padding: 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+  }
+.Titles{ 
+    background-color:#d64161;
+    padding: 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    font-family: arial;
+    text-align: center; 
+}
+.Text{
+    font-family: arial;
+    text-align: center;   
+}

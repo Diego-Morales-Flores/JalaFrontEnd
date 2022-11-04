@@ -1,0 +1,29 @@
+.Errors{
+    background-color: black;
+    flex: 1;
+    margin: 2px;
+}
+.Body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.Row{
+    flex: 1;
+    text-align: center;
+    max-height: 100px;
+    display: flex;
+    border: 1px solid white;
+}
+.Cage{
+    border: 1px solid white;
+    flex: 1;
+    color:white;
+    height: auto;
+}
+.Title{
+    max-height: fit-content;
+    flex: 1;
+    border: 1px solid white;
+    color:white;
+}

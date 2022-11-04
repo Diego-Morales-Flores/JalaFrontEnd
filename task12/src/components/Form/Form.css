@@ -1,0 +1,15 @@
+.Form{
+    background-color: white;
+    flex: 1;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+}
+.Alert{
+    color: red
+}
+
+.Title{
+    color: teal;
+   
+}

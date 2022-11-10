@@ -1,0 +1,29 @@
+.display{
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.display1{
+    background-color: blue;
+    display: flex;
+    flex: 1;
+}
+.display2{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+.display3{
+    background-color: bisque;
+    display: flex;
+    flex: 2;
+}
+.display4{
+    background-color: brown;
+    display: flex;
+    flex: 1;
+}

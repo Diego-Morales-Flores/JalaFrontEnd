@@ -1,5 +1,6 @@
 .Main {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: flex-end;
   background-color: black;
   min-height: 100vh;

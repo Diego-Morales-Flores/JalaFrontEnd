@@ -1,0 +1,8 @@
+.ContainerMain {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    width: 50%;
+  }
+  
+  

@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/jurassic-park');
+.Container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.WelcomeContainer{
+    padding: 10px;
+    height: 100px;
+    padding: 10px;
+}
+.Welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Jurassic Park', sans-serif;
+    font-size: 25vh;
+    height: 150px;
+    white-space: nowrap;
+}
+.ToConteiner{
+    padding: 10px;
+    height: 80px;
+}
+.To{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Jurassic Park', sans-serif;
+    font-size: 20vh;
+    height: 100px;
+    white-space: nowrap;
+}
+.Image{
+    height:300px;
+    border: solid;
+    border-radius: 5%;
+}
+.Button{
+    display: block;
+    margin: 5px;
+    border: solid;
+    border-radius: 10%;
+}

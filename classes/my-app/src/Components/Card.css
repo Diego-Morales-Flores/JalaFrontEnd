@@ -1,0 +1,16 @@
+.CardList {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 50%;
+  }
+.Card {
+display: flex;
+flex-direction: column;
+background-color: aquamarine;
+border: 1px solid black;
+margin: 2px;
+}
+p{
+    margin: 0;
+}  

@@ -8,20 +8,27 @@ import {
 import './index.css'
 import Dashboard from './routes/dashboard/Dashboard';
 import Welcome from './routes/welcome/Welcome';
+import Error from './routes/error/Error';
+import Photos from './routes/photos/Photos';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Welcome/>,
+    element: <Welcome />,
+    errorElement: <Error />
   },
   {
     path: "Dashboard",
-    element: <Dashboard/>,
+    element: <Dashboard />,
+  },
+  {
+    path: "Photos",
+    element: <Photos />,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 )

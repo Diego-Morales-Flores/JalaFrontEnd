@@ -1,0 +1,18 @@
+.PhotosContainer{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+.Gallery{
+    display: flex;
+    background-color: #e5251d;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ImagesPhotos{
+    object-fit: cover;
+    height: auto;
+    border: solid yellow;
+    border-radius: 5%;
+    margin: 5px;
+}

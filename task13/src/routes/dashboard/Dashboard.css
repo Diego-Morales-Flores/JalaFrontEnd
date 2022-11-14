@@ -6,16 +6,16 @@
     flex-direction: column;
 }
 .DashBoard{
+    flex:9;
     display: flex;
     flex-direction: row;
     padding: 10px;
     background-color: #e5251d;
 }
 .Side{
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     flex: 1;
-    height: 100vh;
     background-color: black;
     border: solid #e6c70f ;
     margin-right: 10px;
@@ -23,14 +23,14 @@
 }
 .Main{
     flex: 3;
-    height: 100vh;
     background-color: black;
     border: solid #e6c70f;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .Link{
-    flex : 1;
     display: block;
     border: solid 2px;
     margin: auto;
@@ -40,9 +40,12 @@
     justify-self: center;
 }
 .ImageDino{
-    height:100%;
+    object-fit: cover;
+    width:800px;
+    height: auto;
 }
 .Title{
+    flex: 2;
     font-family: 'Jurassic Park', sans-serif;
     font-size: 15vh;
     margin-top: 0;

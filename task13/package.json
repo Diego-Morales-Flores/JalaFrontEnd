@@ -6,24 +6,36 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.14",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
+    "react-viewerjs": "^0.1.9",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "@vitejs/plugin-react": "^2.2.0",
+    "@vitest/coverage-c8": "^0.25.2",
     "eslint": "^8.27.0",
     "eslint-plugin-react": "^7.31.10",
-    "vite": "^3.2.3"
+    "jsdom": "^20.0.2",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.2"
   }
 }

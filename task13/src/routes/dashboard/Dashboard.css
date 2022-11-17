@@ -45,9 +45,17 @@
     height: auto;
 }
 .Title{
-    flex: 2;
     font-family: 'Jurassic Park', sans-serif;
     font-size: 15vh;
     margin-top: 0;
     margin-bottom: 0;
+}
+.Header{
+    padding-left: 20px;
+    flex: 2;
+    display: block;
+}
+.Form{
+    display: flex;
+    justify-content: space-around;
 }

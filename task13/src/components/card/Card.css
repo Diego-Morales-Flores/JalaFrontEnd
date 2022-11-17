@@ -1,0 +1,32 @@
+.Card{
+    height: 300px;
+    width: 200px;
+    border: solid yellow;
+    background-color: black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ImagesPhotos{
+    object-fit: cover;
+    height: auto;
+}
+.ImageContainer{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Titlebox{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TitleCard{
+    color: white;
+    text-align: center;
+    text-justify: center;
+}

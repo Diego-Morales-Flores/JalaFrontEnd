@@ -9,10 +9,3 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.ImagesPhotos{
-    object-fit: cover;
-    height: auto;
-    border: solid yellow;
-    border-radius: 5%;
-    margin: 5px;
-}

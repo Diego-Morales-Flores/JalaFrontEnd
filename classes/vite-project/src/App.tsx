@@ -1,28 +1,9 @@
-import { useState,useEffect } from 'react'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [myArray, setMyArray] = useState([7,8,5,2,4,6,3,1,4])
-  
-  function insertionSort() {
-    let internalArray=myArray
-    let key
-    let j
-    for (let i = 0; i < internalArray.length; i++) {
-        key=internalArray[i]
-        j=i-1
-        while(j>=0 && internalArray[j]>key){
-          internalArray[j+1]=internalArray[j]
-          console.log("y "+internalArray);
-          j=j-1
-        }
-        internalArray[j+1]=key      
-        console.log("x "+internalArray);
-     }
-  }
-  insertionSort()
 
   return (
     <div className="App">

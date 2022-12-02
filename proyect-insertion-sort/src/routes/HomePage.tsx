@@ -1,6 +1,6 @@
-import React from 'react'
 import CustomButton from '../components/CustomButton'
 import { useNavigate } from "react-router-dom";
+import Typography from '@mui/material/Typography';
 
 export default function HomePage() {
   const navigate = useNavigate();
@@ -8,7 +8,8 @@ export default function HomePage() {
     navigate("/InsertionSort")
   }
   return (
-    <div>HomePage
+    <div>
+    <Typography color={'primary.main'} variant="h1" gutterBottom>Welcome to the Insertion Sort Page</Typography>
     <CustomButton name="Let's Started" callback={toInsertionSortPage}/>
     </div>
   )
